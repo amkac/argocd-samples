@@ -11,7 +11,7 @@ spec:
   source:
     path: helm-guestbook
     repoURL: 'https://github.com/amkac/argocd-samples.git'
-    targetRevision: master
+    targetRevision: main
     helm:
       releaseName: my-release
   syncPolicy:
